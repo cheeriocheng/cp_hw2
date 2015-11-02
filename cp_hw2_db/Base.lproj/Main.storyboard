@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="DLG-SG-Aj8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bV1-DZ-tzY">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -144,14 +144,14 @@
                                 <rect key="frame" x="0.0" y="427" width="320" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="3Ac-fg-uUo" kind="push" id="OSw-CE-kf0"/>
+                                    <segue destination="3Ac-fg-uUo" kind="modal" id="OSw-CE-kf0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YhN-uT-8SX">
                                 <rect key="frame" x="0.0" y="471" width="320" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="Ppg-Bi-51e" kind="push" id="X3K-0n-MUq"/>
+                                    <segue destination="Ppg-Bi-51e" kind="modal" id="X3K-0n-MUq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -195,14 +195,14 @@
                                 <rect key="frame" x="0.0" y="427" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="3Ac-fg-uUo" kind="push" id="y1i-pt-iDy"/>
+                                    <segue destination="3Ac-fg-uUo" kind="modal" id="y1i-pt-iDy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wnf-SB-Fxg">
                                 <rect key="frame" x="0.0" y="467" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="Ppg-Bi-51e" kind="push" id="8W2-af-aji"/>
+                                    <segue destination="Ppg-Bi-51e" kind="modal" id="8W2-af-aji"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -321,6 +321,13 @@
                                     <segue destination="DVa-Gf-k3K" kind="modal" id="6va-XF-NA0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aXg-8y-szv">
+                                <rect key="frame" x="0.0" y="20" width="109" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="ioy-Vt-1Z1" kind="modal" id="IgG-12-pf0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -403,6 +410,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="NA0-zM-Yln" kind="modal" id="5Tm-i6-Awh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BWN-q6-rt5">
+                                <rect key="frame" x="0.0" y="20" width="100" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Uut-wP-DGg" kind="modal" id="btf-dk-n5W"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -545,12 +559,15 @@
                                 <rect key="frame" x="0.0" y="520" width="320" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="zKA-fj-mPR" kind="modal" id="k3C-rd-kcd"/>
+                                    <segue destination="oDG-UT-0am" kind="modal" id="O3Q-ky-Xlj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WDF-6n-APB">
                                 <rect key="frame" x="0.0" y="473" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="zKA-fj-mPR" kind="modal" id="Rdl-x8-lRS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -637,6 +654,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FhG-f7-fa6">
+                                        <rect key="frame" x="0.0" y="677" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="Uut-wP-DGg" kind="modal" id="sSJ-Gt-9ym"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -914,9 +938,10 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8W2-af-aji"/>
+        <segue reference="X3K-0n-MUq"/>
+        <segue reference="IgG-12-pf0"/>
         <segue reference="y1i-pt-iDy"/>
-        <segue reference="AOT-Lf-uJd"/>
+        <segue reference="btf-dk-n5W"/>
         <segue reference="dL6-rq-CiJ"/>
     </inferredMetricsTieBreakers>
 </document>
