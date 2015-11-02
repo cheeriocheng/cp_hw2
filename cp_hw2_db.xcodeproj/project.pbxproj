@@ -14,6 +14,8 @@
 		DC0B3D101BE2F9EC00715472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0B3D0E1BE2F9EC00715472 /* LaunchScreen.storyboard */; };
 		DC0B3D1B1BE2F9ED00715472 /* cp_hw2_dbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B3D1A1BE2F9ED00715472 /* cp_hw2_dbTests.swift */; };
 		DC0B3D261BE2F9ED00715472 /* cp_hw2_dbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B3D251BE2F9ED00715472 /* cp_hw2_dbUITests.swift */; };
+		DC3188C01BE73E2B00910DE2 /* NewUserSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3188BF1BE73E2B00910DE2 /* NewUserSettingViewController.swift */; };
+		DC3188C21BE7E05E00910DE2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3188C11BE7E05E00910DE2 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DC0B3D211BE2F9ED00715472 /* cp_hw2_dbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cp_hw2_dbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0B3D251BE2F9ED00715472 /* cp_hw2_dbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cp_hw2_dbUITests.swift; sourceTree = "<group>"; };
 		DC0B3D271BE2F9ED00715472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3188BF1BE73E2B00910DE2 /* NewUserSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserSettingViewController.swift; sourceTree = "<group>"; };
+		DC3188C11BE7E05E00910DE2 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		DC0B3CF91BE2F9EC00715472 = {
 			isa = PBXGroup;
 			children = (
+				DC3188BF1BE73E2B00910DE2 /* NewUserSettingViewController.swift */,
 				DC0B3D041BE2F9EC00715472 /* cp_hw2_db */,
 				DC0B3D191BE2F9ED00715472 /* cp_hw2_dbTests */,
 				DC0B3D241BE2F9ED00715472 /* cp_hw2_dbUITests */,
@@ -100,6 +105,7 @@
 				DC0B3D051BE2F9EC00715472 /* AppDelegate.swift */,
 				DC0B3D071BE2F9EC00715472 /* ViewController.swift */,
 				DC0B3D091BE2F9EC00715472 /* Main.storyboard */,
+				DC3188C11BE7E05E00910DE2 /* SettingViewController.swift */,
 				DC0B3D0C1BE2F9EC00715472 /* Assets.xcassets */,
 				DC0B3D0E1BE2F9EC00715472 /* LaunchScreen.storyboard */,
 				DC0B3D111BE2F9EC00715472 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3188C01BE73E2B00910DE2 /* NewUserSettingViewController.swift in Sources */,
 				DC0B3D081BE2F9EC00715472 /* ViewController.swift in Sources */,
 				DC0B3D061BE2F9EC00715472 /* AppDelegate.swift in Sources */,
+				DC3188C21BE7E05E00910DE2 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +493,7 @@
 				DC0B3D2C1BE2F9ED00715472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC0B3D2D1BE2F9ED00715472 /* Build configuration list for PBXNativeTarget "cp_hw2_dbTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				DC0B3D2F1BE2F9ED00715472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC0B3D301BE2F9ED00715472 /* Build configuration list for PBXNativeTarget "cp_hw2_dbUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				DC0B3D321BE2F9ED00715472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
