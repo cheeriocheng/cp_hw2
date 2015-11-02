@@ -16,6 +16,7 @@
 		DC0B3D261BE2F9ED00715472 /* cp_hw2_dbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B3D251BE2F9ED00715472 /* cp_hw2_dbUITests.swift */; };
 		DC3188C01BE73E2B00910DE2 /* NewUserSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3188BF1BE73E2B00910DE2 /* NewUserSettingViewController.swift */; };
 		DC3188C21BE7E05E00910DE2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3188C11BE7E05E00910DE2 /* SettingViewController.swift */; };
+		DC3188C61BE7E82C00910DE2 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3188C51BE7E82C00910DE2 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DC0B3D271BE2F9ED00715472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC3188BF1BE73E2B00910DE2 /* NewUserSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserSettingViewController.swift; sourceTree = "<group>"; };
 		DC3188C11BE7E05E00910DE2 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		DC3188C51BE7E82C00910DE2 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		DC0B3CF91BE2F9EC00715472 = {
 			isa = PBXGroup;
 			children = (
+				DC3188C51BE7E82C00910DE2 /* PhotoViewController.swift */,
 				DC3188BF1BE73E2B00910DE2 /* NewUserSettingViewController.swift */,
 				DC0B3D041BE2F9EC00715472 /* cp_hw2_db */,
 				DC0B3D191BE2F9ED00715472 /* cp_hw2_dbTests */,
@@ -269,6 +272,7 @@
 				DC0B3D081BE2F9EC00715472 /* ViewController.swift in Sources */,
 				DC0B3D061BE2F9EC00715472 /* AppDelegate.swift in Sources */,
 				DC3188C21BE7E05E00910DE2 /* SettingViewController.swift in Sources */,
+				DC3188C61BE7E82C00910DE2 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
