@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bV1-DZ-tzY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="DLG-SG-Aj8">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -115,7 +115,8 @@
         <!--Navigation Controller-->
         <scene sceneID="her-nz-Vcl">
             <objects>
-                <navigationController id="DLG-SG-Aj8" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="DLG-SG-Aj8" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Qjr-aq-Hmy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Ia-uy-5Td">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -144,7 +145,7 @@
                                 <rect key="frame" x="0.0" y="427" width="320" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="3Ac-fg-uUo" kind="modal" id="OSw-CE-kf0"/>
+                                    <segue destination="3Ac-fg-uUo" kind="push" id="OSw-CE-kf0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YhN-uT-8SX">
@@ -261,9 +262,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="empty_files" id="crX-8E-xfQ">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="empty_files" id="crX-8E-xfQ">
                                 <rect key="frame" x="0.0" y="62" width="320" height="454"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -311,7 +312,7 @@
                                 <rect key="frame" x="0.0" y="95" width="320" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="5T1-FP-jOh" kind="modal" id="LqK-tt-vJL"/>
+                                    <segue destination="5T1-FP-jOh" kind="push" animates="NO" id="LqK-tt-vJL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nTo-qr-GXS">
@@ -325,7 +326,7 @@
                                 <rect key="frame" x="0.0" y="20" width="109" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="ioy-Vt-1Z1" kind="modal" id="IgG-12-pf0"/>
+                                    <segue destination="ioy-Vt-1Z1" kind="push" id="IgG-12-pf0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -381,7 +382,7 @@
                                 <rect key="frame" x="251" y="20" width="69" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="weW-ba-ESA" kind="modal" id="5bV-UG-LGl"/>
+                                    <segue destination="weW-ba-ESA" kind="push" id="5bV-UG-LGl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -409,7 +410,7 @@
                                 <rect key="frame" x="0.0" y="79" width="320" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="NA0-zM-Yln" kind="modal" id="5Tm-i6-Awh"/>
+                                    <segue destination="NA0-zM-Yln" kind="modal" animates="NO" id="5Tm-i6-Awh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BWN-q6-rt5">
@@ -445,7 +446,7 @@
                                 <rect key="frame" x="0.0" y="81" width="320" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="Ptb-SF-dX6" kind="modal" id="pEA-lW-j4a"/>
+                                    <segue destination="Ptb-SF-dX6" kind="modal" animates="NO" id="pEA-lW-j4a"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -474,7 +475,7 @@
                                 <rect key="frame" x="0.0" y="84" width="320" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="UHb-0f-b3m" kind="modal" id="J08-dj-Eng"/>
+                                    <segue destination="UHb-0f-b3m" kind="modal" animates="NO" id="J08-dj-Eng"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -501,7 +502,7 @@
                                 <rect key="frame" x="0.0" y="86" width="320" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="HWX-bS-Ven" kind="modal" id="c2z-bs-2GP"/>
+                                    <segue destination="HWX-bS-Ven" kind="modal" animates="NO" id="c2z-bs-2GP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -532,7 +533,7 @@
                                 <rect key="frame" x="245" y="20" width="75" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="ZOu-LX-s0Z" kind="modal" id="wRI-vz-OCw"/>
+                                    <segue destination="ZOu-LX-s0Z" kind="modal" animates="NO" id="wRI-vz-OCw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -566,7 +567,7 @@
                                 <rect key="frame" x="0.0" y="473" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="zKA-fj-mPR" kind="modal" id="Rdl-x8-lRS"/>
+                                    <segue destination="zKA-fj-mPR" kind="modal" animates="NO" id="Rdl-x8-lRS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -780,6 +781,7 @@
         <scene sceneID="vKC-Er-ecL">
             <objects>
                 <tabBarController id="weW-ba-ESA" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Z1B-Dk-fnq"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="7Ph-gh-pfK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -835,22 +837,22 @@
             <objects>
                 <viewController id="bG1-oj-iZW" customClass="NewUserSettingViewController" customModule="cp_hw2_db" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DEE-Ir-MYa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BkX-ql-2zB">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings" id="Pcb-GF-XLZ">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XPz-yy-xDM">
-                                        <rect key="frame" x="0.0" y="700" width="320" height="47"/>
+                                        <rect key="frame" x="0.0" y="691" width="320" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="ioy-Vt-1Z1" kind="modal" id="AOT-Lf-uJd"/>
+                                            <segue destination="DLG-SG-Aj8" kind="modal" id="tDE-EZ-B5j"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -861,7 +863,7 @@
                     <tabBarItem key="tabBarItem" title="Settings" image="settings_tab" id="iJe-cU-zOR"/>
                     <navigationItem key="navigationItem" id="sue-Qm-F3X"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="568"/>
+                    <size key="freeformSize" width="320" height="772"/>
                     <connections>
                         <outlet property="settingScrollView" destination="BkX-ql-2zB" id="e2z-0O-ETW"/>
                     </connections>
@@ -938,10 +940,11 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="X3K-0n-MUq"/>
-        <segue reference="IgG-12-pf0"/>
-        <segue reference="y1i-pt-iDy"/>
-        <segue reference="btf-dk-n5W"/>
-        <segue reference="dL6-rq-CiJ"/>
+        <segue reference="wRI-vz-OCw"/>
+        <segue reference="8W2-af-aji"/>
+        <segue reference="sSJ-Gt-9ym"/>
+        <segue reference="OSw-CE-kf0"/>
+        <segue reference="xvT-Xa-QJ2"/>
+        <segue reference="tDE-EZ-B5j"/>
     </inferredMetricsTieBreakers>
 </document>
